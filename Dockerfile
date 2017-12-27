@@ -1,6 +1,6 @@
 FROM node:latest
 ENV EPAD epad
-WORKDIR /vingupad 
+WORKDIR /vingupad
 
 RUN DEBIAN_FRONTEND=noninteractive \
 	apt-get update && \
