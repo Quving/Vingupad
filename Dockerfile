@@ -15,8 +15,6 @@ RUN wget -O $EPAD.zip http://github.com/ether/etherpad-lite/zipball/master && \
 # Install Deps
 RUN $EPAD/bin/installDeps.sh
 
-
 VOLUME ["$EPAD/var"]
-EXPOSE 9001
 
 CMD ["epad/bin/run.sh", "--root"]
