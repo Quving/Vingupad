@@ -6,13 +6,13 @@ This repository provides scripts to host your own [etherpad-lite](http://etherpa
 ## Installation (built by yourself)
 The etherpad application is running on the default port (9001).
 
-**Build the docker image**
+#### Build the docker image
 ``` $ docker build -t vingupad:latest . ```
 
-**Run the container**
+#### Run the container
 ``` $ docker run -d -v /path/to/vingupad-data:/vingupad/epad/var -p 9001:9001 --name vingupad vingupad:latest```
  
-**Check your browser at the url**
+#### Check your browser at the url
 ```$ curl http://localhost:9001```
 
 
