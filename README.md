@@ -1,3 +1,5 @@
+[![Build Status](http://drone.quving.com/api/badges/Quving/vingupad/status.svg)](http://drone.quving.com/Quving/vingupad)
+
 # Vingupad
 This repository provides scripts to host your own [etherpad-lite](http://etherpad.org/) using [docker](https://www.docker.com/what-docker).
 
