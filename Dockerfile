@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:9-stretch
 ENV EPAD epad
 WORKDIR /vingupad
 
