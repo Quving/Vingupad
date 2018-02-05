@@ -13,7 +13,7 @@ The etherpad application is running on the default port (9001).
 
 #### Run the container
 ``` $ docker run -d -v /path/to/vingupad-data:/vingupad/epad/var -p 9001:9001 --name vingupad vingupad:latest```
- 
+
 #### Check your browser at the url
 ```$ curl http://localhost:9001```
 
